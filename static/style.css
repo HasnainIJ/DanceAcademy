@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #910337;
+    width: 100%;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    /*justify-content: center;*/
+    margin: 0px auto;
+    }
+
+li{
+    padding: 15px;
+    margin : 0  15px;
+}
+
+#logo img{
+    height: 45px;
+    filter: invert(1);
+    margin-top: 5px ;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 23px;
+}
+
+
+
+#sectionintro{
+height: 450px;
+display: flex;
+flex-direction: column;
+align-items: center;
+color:white;
+padding-top: 50px;
+font-weight: bold;
+font-size: 30px;
+background: url('/static/dance.jpg') no-repeat center/cover;
+font-family:'Pacifico', cursive;
+}
+
+
+#sectionmission{
+    max-width:70%;
+    height: 300px;
+    margin:auto;
+}
+
+h2{
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card{
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    margin: 23px 22px;
+    height: 200px;
+    text-align: center;
+}
+
+.card h4{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.card-img  {
+    height: 100px;
+    padding: 14px 0px;
+    filter: invert(1);
+}
+.card-img img{
+    height: inherit;
+    padding: 14px 0px;
+    filter: invert(1);
+}
+
+.card-content p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+#sectionsponser{
+    background-color: lightpink;
+    height: 350px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+div.mysponsers{
+    max-width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px ;
+    }
+
+
+div.spons img{
+    height:130px;
+    padding: 10px;
+   border: 2px outset ;   
+  }
+
+footer{
+   height: 50px;
+   background-color: rgba(4, 4, 94, 0.829);
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
